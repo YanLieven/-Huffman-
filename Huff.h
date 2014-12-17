@@ -18,8 +18,8 @@ class Huffman
 {
 public:
     Huffman(){}
-    void comprimir(QString string, QString string2);
-    void descomprimir(QString string, QString string2);
+    void comprimir(QString string, QString string2); // comprime
+    void descomprimir(QString string); // descomprime
 };
 
 #endif // HUFF_H
